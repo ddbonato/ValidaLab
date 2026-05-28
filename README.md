@@ -1,7 +1,21 @@
 # CheckEverything
 
-Procedure verification tool, applied after the completion of maintenance in the laboratory, with the purpose of reducing potential errors. 
-Internally used within the company by the in-house hardware maintenance team.
+Internal verification tool developed to validate maintenance procedures performed in the laboratory environment, helping reduce operational errors after hardware maintenance activities.
 
-Additionally, the tool can save the checklist in PDF format to be attached upon task completion in the service desk system. It also enables the inclusion of equipment hardware information, 
-which is collected by the script I developed, named InvScript, available in its repository.
+The tool was internally used by the company's hardware maintenance team as part of the post-maintenance workflow.
+
+## Features
+
+* Maintenance procedure checklist
+* PDF report generation
+* Hardware information collection
+* Integration with internal inventory scripts
+* Support for service desk attachment workflow
+
+## Integration
+
+The application can automatically collect hardware information using another internal tool developed by me, called **InvScript**.
+
+## Purpose
+
+This project was created to improve reliability in maintenance processes, reduce human errors, and standardize technical verification procedures.
